@@ -32,7 +32,11 @@
 
 ### Q2-2: http://localhost/ をブラウザで開くと、何が表示されましたか？
 
-【回答欄】Welcome to nginx!と表示されその下に五行程度の英文が表示されていた。
+回答欄】Welcome to nginx!と表示されその下に五行程度の英文が表示されていた。
+
+### Q2-3: コンテナの起動時と終了時で、docker container ls -a はどのように変化しましたか？
+
+【回答欄】8行だったのが12行になっていて4行追加されたことがわかった。
 
 ### Q3-1: `docker build -t sample-image .` 実行時に表示されている `building...` は、Dockerfileのどの行から実行されましたか？
 
